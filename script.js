@@ -1,5 +1,6 @@
 function getRandomInt(max) {
-    return Math.floor(Math.random() *max)+1;
+    const randomnumber= Math.floor(Math.random() *max)+1;
+    document.getElementById("demo").innerText= randomnumber
   }
 
   console.log(getRandomInt(6))
